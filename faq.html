@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrician</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+</head>
+<body>
+<header class="header pt-3 pb-3 ">
+    <nav class=" p-0 navbar navbar-expand-lg navbar-dark ">
+        <div class="container justify-content-center justify-content-lg-between  ">
+            <a class="navbar-brand me-0 ms-1 ms-lg-0" href="index.html">
+                <img src="img/logo1.svg" alt="Patrician_logo" class="d-block header__logo1-img">
+
+
+            </a>
+
+            <div class="collapse navbar-collapse d-flex mt-2 mt-lg-0" id="navbarNav">
+                <ul class="navbar-nav d-flex flex-row   navbar-nav-wrapper-bg mb-3 mb-lg-0">
+                    <li class="nav-item "><a class="nav-link p-0 ml-20 mb-0" href="index.html#about">О Patrician</a></li>
+                    <li class="nav-item d-none d-lg-flex "><a class="nav-link p-0 ml-20 mb-0" href="index.html#faq">Частые вопросы</a></li>
+                    <li class="nav-item d-none d-lg-flex "><a class="nav-link p-0 ml-20  mb-0" href="index.html#callback">Обратная связь</a></li>
+                    <li class="nav-item d-flex d-lg-none "><a class="nav-link p-0 ml-20  mb-0" href="index.html#faq">Вопросы</a></li>
+                    <li class="nav-item d-flex d-lg-none"><a class="nav-link p-0 ml-20  mb-0" href="index.html#callback">Контакты</a></li>
+
+
+
+                </ul>
+                <div class="header__buttons   d-flex">
+
+                    <div class="header__button-group d-none d-lg-flex">
+                        <button class="button  button-img  " type="button">
+                            <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top" width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03412 8.41814C7.85966 5.86363 11.7537 4.21254 13.7164 3.40257C19.2615 1.09727 20.4142 0.692285 21.1618 0.661133C21.3176 0.661133 21.6914 0.692286 21.9407 0.879202C22.1276 1.03496 22.1899 1.25303 22.221 1.4088C22.2522 1.56456 22.2833 1.90724 22.2522 2.18761C21.9407 5.33403 20.6634 13.0287 19.978 16.549C19.6977 18.0443 19.1369 18.5428 18.6073 18.6051C17.4547 18.6985 16.5513 17.8262 15.4298 17.1097C13.6852 15.9571 12.6883 15.2406 10.9749 14.1191C9.01231 12.8107 10.2896 12.0942 11.4111 10.9415C11.6914 10.63 16.8316 5.98824 16.9251 5.5521C16.9251 5.48979 16.9562 5.30288 16.8316 5.20942C16.707 5.11596 16.5513 5.14711 16.4266 5.17827C16.2397 5.20942 13.436 7.07858 7.98427 10.7546C7.1743 11.3153 6.45779 11.5646 5.80359 11.5646C5.08708 11.5646 3.71636 11.1596 2.68832 10.8169C1.44222 10.4119 0.445333 10.1938 0.538791 9.50849C0.601096 9.16581 1.09954 8.79198 2.03412 8.41814Z" fill="white" />
+                            </svg>
+                            </span>
+                        </button>
+                        <button class="button  button-img  " type="button">
+                            <span class="svg-wrapper">
+                                <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g >
+                                        <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                        <!-- остальная часть пути -->
+                                    </g>
+                                    <defs>
+                                        <clipPath >
+                                            <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <svg class="svg-top2"  width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M12.0913 9.54799C12.0913 11.0519 10.8653 12.2215 9.41641 12.2215C7.91176 12.2215 6.74149 10.9962 6.74149 9.54799C6.74149 8.04413 7.96749 6.87447 9.41641 6.87447C10.9211 6.87447 12.0913 8.04413 12.0913 9.54799ZM9.41641 0.63623C4.51238 0.63623 0.5 4.64652 0.5 9.54799C0.5 14.4495 4.51238 18.4598 9.41641 18.4598C11.1997 18.4598 12.9272 17.9028 14.4319 16.9002L13.2059 15.5077C12.0913 16.2318 10.7539 16.6217 9.36068 16.6217C5.45975 16.6217 2.28329 13.4469 2.28329 9.54799C2.28329 5.6491 5.45975 2.47427 9.36068 2.47427C13.2616 2.47427 16.4381 5.6491 16.4381 9.54799C16.4381 10.0493 16.3823 10.5506 16.2709 11.0519C16.048 11.9987 15.3793 12.2772 14.9334 12.2215C14.4319 12.1658 13.8746 11.8316 13.8746 10.9961V9.54799C13.8746 7.04156 11.8684 5.03643 9.36068 5.03643C6.85294 5.03643 4.84674 7.04156 4.84674 9.54799C4.84674 12.0544 6.85294 14.0596 9.36068 14.0596C10.5867 14.0596 11.7012 13.5583 12.5372 12.7228C13.0387 13.5026 13.8746 14.0039 14.7663 14.0596C15.4907 14.1153 16.2152 13.8925 16.8282 13.4469C17.3854 13.057 17.7755 12.4443 17.9984 11.7759C18.0542 11.6645 18.1099 11.386 18.1099 11.386C18.2214 10.8291 18.2771 10.2721 18.2771 9.54799C18.3328 4.64652 14.3204 0.63623 9.41641 0.63623Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath >
+                                            <rect width="18" height="18" fill="white" transform="translate(0.5 0.63623)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="section-breadcrumb">
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Ещё вопросы</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+<section id="faq" class="section-faq section-faq-mobile">
+
+    <div class="container  d-flex flex-column">
+
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-lg-8">
+                <h2 class="section-faq__title w-100 ">Вопросы про “Patrician”</h2>
+                <p class="section-faq__subtitle width-520 mx-auto">Если хочешь познакомиться с приложением и узнать его получше - жми на кнопку</p>
+            </div>
+
+        </div>
+        <div class="row  d-none d-lg-flex justify-content-center align-items-center mb-64 ">
+            <div class="col-lg-4 d-flex justify-content-center">
+                <a href="#" class="button button-img hero__button  " >
+                     <span  class="appstore-button" >
+                         <svg class="apple-icon" width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <g >
+                                 <path d="M27.1229 11.9412C24.8289 13.3824 23.412 15.8529 23.412 18.598C23.412 21.6863 25.2337 24.5 28 25.6667C27.4602 27.451 26.6506 29.098 25.6386 30.6078C24.1542 32.7353 22.6024 34.9314 20.3084 34.9314C18.0145 34.9314 17.3398 33.5588 14.641 33.5588C12.0096 33.5588 11.0651 35 8.90602 35C6.74699 35 5.26265 33.0098 3.5759 30.5392C1.3494 27.1078 0.0674699 23.1275 0 18.9412C0 12.1471 4.31807 8.5098 8.63614 8.5098C10.9301 8.5098 12.8193 10.0196 14.2361 10.0196C15.5855 10.0196 17.7446 8.44118 20.3084 8.44118C23.0072 8.37255 25.5711 9.67647 27.1229 11.9412ZM19.094 5.55882C20.241 4.18628 20.8482 2.47059 20.9157 0.686275C20.9157 0.480392 20.9157 0.205882 20.8482 0C18.8916 0.205882 17.0699 1.16667 15.788 2.67647C14.641 3.98039 13.9663 5.62745 13.8988 7.41177C13.8988 7.61765 13.8988 7.82353 13.9663 8.02941C14.1012 8.02941 14.3036 8.09804 14.4386 8.09804C16.2602 7.96078 17.947 7 19.094 5.55882Z" fill="white" />
+                             </g>
+                             <defs>
+                                 <clipPath >
+                                     <rect width="28" height="35" fill="white" />
+                                 </clipPath>
+                             </defs>
+                         </svg>
+                         <span class="text">
+                             <span class="small">Загрузите в</span>
+                             <span class="big">App Store</span>
+                         </span>
+                     </span>
+
+                </a>
+            </div>
+
+
+        </div>
+        <div class="row justify-content-center wrapper-bg ">
+            <h3 class="faq-content-title">Всё о том, как работает “Patrician”</h3>
+            <div class="col-lg-8 ">
+
+
+                <div class="faq-content pt-0">
+                    <ul class="faq-content-ul">
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center wrapper-bg">
+            <h3 class="faq-content-title">Всё о функциях “Patrician”</h3>
+            <div class="col-lg-8 ">
+
+
+                <div class="faq-content pt-0">
+                    <ul class="faq-content-ul">
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center wrapper-bg">
+            <h3 class="faq-content-title">Всё о твоём профиле</h3>
+            <div class="col-lg-8 ">
+
+
+                <div class="faq-content pt-0">
+                    <ul class="faq-content-ul">
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                        <li class="faq-content-li">
+                            <div class="faq-title">
+                                <p>Заголовок  в одну строчку</p>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="faq-content-text">
+                                Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<footer>
+    <div class="container position-relative">
+        <div class="row justify-content-center footer__margin text-center d-none d-lg-flex">
+            <div class="col-lg-3">
+                <img src="img/logo1.svg" alt="Patrician_logo" class="ms-1 header__logo1-img">
+            </div>
+
+        </div>
+        <div class="row d-flex justify-content-center text-center footer__margin">
+            <div class="col-lg-2">
+                <div class="header__button-group m-0 ">
+                    <button class="button  button-img  " type="button">
+                        <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath>
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top" width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03412 8.41814C7.85966 5.86363 11.7537 4.21254 13.7164 3.40257C19.2615 1.09727 20.4142 0.692285 21.1618 0.661133C21.3176 0.661133 21.6914 0.692286 21.9407 0.879202C22.1276 1.03496 22.1899 1.25303 22.221 1.4088C22.2522 1.56456 22.2833 1.90724 22.2522 2.18761C21.9407 5.33403 20.6634 13.0287 19.978 16.549C19.6977 18.0443 19.1369 18.5428 18.6073 18.6051C17.4547 18.6985 16.5513 17.8262 15.4298 17.1097C13.6852 15.9571 12.6883 15.2406 10.9749 14.1191C9.01231 12.8107 10.2896 12.0942 11.4111 10.9415C11.6914 10.63 16.8316 5.98824 16.9251 5.5521C16.9251 5.48979 16.9562 5.30288 16.8316 5.20942C16.707 5.11596 16.5513 5.14711 16.4266 5.17827C16.2397 5.20942 13.436 7.07858 7.98427 10.7546C7.1743 11.3153 6.45779 11.5646 5.80359 11.5646C5.08708 11.5646 3.71636 11.1596 2.68832 10.8169C1.44222 10.4119 0.445333 10.1938 0.538791 9.50849C0.601096 9.16581 1.09954 8.79198 2.03412 8.41814Z" fill="white" />
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="button  button-img  " type="button">
+                        <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top2"  width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <path d="M12.0913 9.54799C12.0913 11.0519 10.8653 12.2215 9.41641 12.2215C7.91176 12.2215 6.74149 10.9962 6.74149 9.54799C6.74149 8.04413 7.96749 6.87447 9.41641 6.87447C10.9211 6.87447 12.0913 8.04413 12.0913 9.54799ZM9.41641 0.63623C4.51238 0.63623 0.5 4.64652 0.5 9.54799C0.5 14.4495 4.51238 18.4598 9.41641 18.4598C11.1997 18.4598 12.9272 17.9028 14.4319 16.9002L13.2059 15.5077C12.0913 16.2318 10.7539 16.6217 9.36068 16.6217C5.45975 16.6217 2.28329 13.4469 2.28329 9.54799C2.28329 5.6491 5.45975 2.47427 9.36068 2.47427C13.2616 2.47427 16.4381 5.6491 16.4381 9.54799C16.4381 10.0493 16.3823 10.5506 16.2709 11.0519C16.048 11.9987 15.3793 12.2772 14.9334 12.2215C14.4319 12.1658 13.8746 11.8316 13.8746 10.9961V9.54799C13.8746 7.04156 11.8684 5.03643 9.36068 5.03643C6.85294 5.03643 4.84674 7.04156 4.84674 9.54799C4.84674 12.0544 6.85294 14.0596 9.36068 14.0596C10.5867 14.0596 11.7012 13.5583 12.5372 12.7228C13.0387 13.5026 13.8746 14.0039 14.7663 14.0596C15.4907 14.1153 16.2152 13.8925 16.8282 13.4469C17.3854 13.057 17.7755 12.4443 17.9984 11.7759C18.0542 11.6645 18.1099 11.386 18.1099 11.386C18.2214 10.8291 18.2771 10.2721 18.2771 9.54799C18.3328 4.64652 14.3204 0.63623 9.41641 0.63623Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect width="18" height="18" fill="white" transform="translate(0.5 0.63623)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-lg-3 text-center text-lg-end footer__margin">
+                <a class="footer__link" href="../pages/policy_page.html" target="_blank">Политика конфиденциальности</a>
+            </div>
+            <div class="col-lg-3 text-center text-lg-start footer__margin">
+                <a class="footer__link" href="../pages/policy_page.html" target="_blank">Политика конфиденциальности</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-2">
+                <p class="copy-past">© 2024 Patrician</p>
+            </div>
+        </div>
+        <button id="scrollTopBtn" title="Наверх">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12l7-7 7 7M12 5v14" />
+            </svg>
+        </button>
+
+    </div>
+
+    <a href="#" class=" button-scroll d-flex d-lg-none justify-content-center" target="_blank" rel="noopener noreferrer">
+        <svg class="apple-icon" width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g >
+                <path d="M27.1229 11.9412C24.8289 13.3824 23.412 15.8529 23.412 18.598C23.412 21.6863 25.2337 24.5 28 25.6667C27.4602 27.451 26.6506 29.098 25.6386 30.6078C24.1542 32.7353 22.6024 34.9314 20.3084 34.9314C18.0145 34.9314 17.3398 33.5588 14.641 33.5588C12.0096 33.5588 11.0651 35 8.90602 35C6.74699 35 5.26265 33.0098 3.5759 30.5392C1.3494 27.1078 0.0674699 23.1275 0 18.9412C0 12.1471 4.31807 8.5098 8.63614 8.5098C10.9301 8.5098 12.8193 10.0196 14.2361 10.0196C15.5855 10.0196 17.7446 8.44118 20.3084 8.44118C23.0072 8.37255 25.5711 9.67647 27.1229 11.9412ZM19.094 5.55882C20.241 4.18628 20.8482 2.47059 20.9157 0.686275C20.9157 0.480392 20.9157 0.205882 20.8482 0C18.8916 0.205882 17.0699 1.16667 15.788 2.67647C14.641 3.98039 13.9663 5.62745 13.8988 7.41177C13.8988 7.61765 13.8988 7.82353 13.9663 8.02941C14.1012 8.02941 14.3036 8.09804 14.4386 8.09804C16.2602 7.96078 17.947 7 19.094 5.55882Z" fill="white" />
+            </g>
+            <defs>
+                <clipPath >
+                    <rect width="28" height="35" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
+        <div class="text">
+            <span class="small">Загрузите в</span>
+            <span class="big">App Store</span>
+        </div>
+    </a>
+
+
+
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const headerHeight = document.querySelector('header').offsetHeight;
+            const target = document.querySelector(this.getAttribute('href'));
+            window.scrollTo({
+                top: target.offsetTop - headerHeight,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+
+    function faqClickHandler(event) {
+        event.preventDefault();
+
+        const currentTitle = event.currentTarget;
+        const currentItem = currentTitle.closest('.faq-content-li');
+
+        currentItem.classList.toggle('active');
+    }
+
+    function initFaqTitle() {
+        document.querySelectorAll('.faq-title').forEach(title => {
+            title.removeEventListener('click', faqClickHandler);
+            title.addEventListener('click', faqClickHandler);
+        });
+    }
+
+    initFaqTitle();
+
+    window.addEventListener("scroll", () => {
+        const btn = document.getElementById("scrollTopBtn");
+        if (window.pageYOffset > 300) {
+            btn.classList.add("show");
+        } else {
+            btn.classList.remove("show");
+        }
+    });
+
+    // Скролл вверх при клике
+    document.getElementById("scrollTopBtn").addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+</script>
+</body>
+</html>

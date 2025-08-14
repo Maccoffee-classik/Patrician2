@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrician</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+</head>
+<body>
+<header class="header pt-3 pb-3 ">
+    <nav class=" p-0 navbar navbar-expand-lg navbar-dark ">
+        <div class="container  justify-content-lg-between  ">
+            <a class="navbar-brand " href="#">
+                <img src="img/logo1.svg" alt="Patrician_logo" class="header__logo1-img">
+                <img src="img/logo2.svg" alt="Patrician_logo" class="header__logo2-img">
+
+            </a>
+            <button class="navbar-toggler header__burger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 17 16" >
+                    <path fill-rule="evenodd"  fill="rgb(0, 0, 0)" d="M-0.000,-0.000 L17.000,-0.000 L17.000,2.000 L-0.000,2.000 L-0.000,-0.000 Z" />
+                    <path fill-rule="evenodd"  fill="rgb(0, 0, 0)" d="M-0.000,7.000 L17.000,7.000 L17.000,9.000 L-0.000,9.000 L-0.000,7.000 Z"/>
+                    <path fill-rule="evenodd"  fill="rgb(0, 0, 0)" d="M-0.000,14.000 L17.000,14.000 L17.000,16.000 L-0.000,16.000 L-0.000,14.000 Z"/>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex   ">
+                    <li class="nav-item "><a class="nav-link p-0 " href="#about">О Patrician</a></li>
+
+                    <li class="nav-item "><a class="nav-link p-0" href="#pluses">Плюсы приложения</a></li>
+                    <li class="nav-item "><a class="nav-link p-0" href="#for_who">Для кого</a></li>
+                    <li class="nav-item "><a class="nav-link p-0" href="#faq">Вопросы</a></li>
+                    <li class="nav-item "><a class="nav-link p-0" href="#callback">Обратная связь</a></li>
+
+
+
+                </ul>
+                <div class="header__buttons   d-flex">
+                    <a href="#" class="appstore-button d-flex d-lg-none" target="_blank" rel="noopener noreferrer">
+                        <svg class="apple-icon" width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g >
+                                <path d="M27.1229 11.9412C24.8289 13.3824 23.412 15.8529 23.412 18.598C23.412 21.6863 25.2337 24.5 28 25.6667C27.4602 27.451 26.6506 29.098 25.6386 30.6078C24.1542 32.7353 22.6024 34.9314 20.3084 34.9314C18.0145 34.9314 17.3398 33.5588 14.641 33.5588C12.0096 33.5588 11.0651 35 8.90602 35C6.74699 35 5.26265 33.0098 3.5759 30.5392C1.3494 27.1078 0.0674699 23.1275 0 18.9412C0 12.1471 4.31807 8.5098 8.63614 8.5098C10.9301 8.5098 12.8193 10.0196 14.2361 10.0196C15.5855 10.0196 17.7446 8.44118 20.3084 8.44118C23.0072 8.37255 25.5711 9.67647 27.1229 11.9412ZM19.094 5.55882C20.241 4.18628 20.8482 2.47059 20.9157 0.686275C20.9157 0.480392 20.9157 0.205882 20.8482 0C18.8916 0.205882 17.0699 1.16667 15.788 2.67647C14.641 3.98039 13.9663 5.62745 13.8988 7.41177C13.8988 7.61765 13.8988 7.82353 13.9663 8.02941C14.1012 8.02941 14.3036 8.09804 14.4386 8.09804C16.2602 7.96078 17.947 7 19.094 5.55882Z" fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath >
+                                    <rect width="28" height="35" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <div class="text">
+                            <span class="small">Загрузите в</span>
+                            <span class="big">App Store</span>
+                        </div>
+                    </a>
+                    <div class="header__button-group d-flex">
+                        <button class="button  button-img  " type="button">
+                            <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top" width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03412 8.41814C7.85966 5.86363 11.7537 4.21254 13.7164 3.40257C19.2615 1.09727 20.4142 0.692285 21.1618 0.661133C21.3176 0.661133 21.6914 0.692286 21.9407 0.879202C22.1276 1.03496 22.1899 1.25303 22.221 1.4088C22.2522 1.56456 22.2833 1.90724 22.2522 2.18761C21.9407 5.33403 20.6634 13.0287 19.978 16.549C19.6977 18.0443 19.1369 18.5428 18.6073 18.6051C17.4547 18.6985 16.5513 17.8262 15.4298 17.1097C13.6852 15.9571 12.6883 15.2406 10.9749 14.1191C9.01231 12.8107 10.2896 12.0942 11.4111 10.9415C11.6914 10.63 16.8316 5.98824 16.9251 5.5521C16.9251 5.48979 16.9562 5.30288 16.8316 5.20942C16.707 5.11596 16.5513 5.14711 16.4266 5.17827C16.2397 5.20942 13.436 7.07858 7.98427 10.7546C7.1743 11.3153 6.45779 11.5646 5.80359 11.5646C5.08708 11.5646 3.71636 11.1596 2.68832 10.8169C1.44222 10.4119 0.445333 10.1938 0.538791 9.50849C0.601096 9.16581 1.09954 8.79198 2.03412 8.41814Z" fill="white" />
+                            </svg>
+                            </span>
+                        </button>
+                        <button class="button  button-img  " type="button">
+                            <span class="svg-wrapper">
+                                <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g >
+                                        <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                        <!-- остальная часть пути -->
+                                    </g>
+                                    <defs>
+                                        <clipPath >
+                                            <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <svg class="svg-top2"  width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M12.0913 9.54799C12.0913 11.0519 10.8653 12.2215 9.41641 12.2215C7.91176 12.2215 6.74149 10.9962 6.74149 9.54799C6.74149 8.04413 7.96749 6.87447 9.41641 6.87447C10.9211 6.87447 12.0913 8.04413 12.0913 9.54799ZM9.41641 0.63623C4.51238 0.63623 0.5 4.64652 0.5 9.54799C0.5 14.4495 4.51238 18.4598 9.41641 18.4598C11.1997 18.4598 12.9272 17.9028 14.4319 16.9002L13.2059 15.5077C12.0913 16.2318 10.7539 16.6217 9.36068 16.6217C5.45975 16.6217 2.28329 13.4469 2.28329 9.54799C2.28329 5.6491 5.45975 2.47427 9.36068 2.47427C13.2616 2.47427 16.4381 5.6491 16.4381 9.54799C16.4381 10.0493 16.3823 10.5506 16.2709 11.0519C16.048 11.9987 15.3793 12.2772 14.9334 12.2215C14.4319 12.1658 13.8746 11.8316 13.8746 10.9961V9.54799C13.8746 7.04156 11.8684 5.03643 9.36068 5.03643C6.85294 5.03643 4.84674 7.04156 4.84674 9.54799C4.84674 12.0544 6.85294 14.0596 9.36068 14.0596C10.5867 14.0596 11.7012 13.5583 12.5372 12.7228C13.0387 13.5026 13.8746 14.0039 14.7663 14.0596C15.4907 14.1153 16.2152 13.8925 16.8282 13.4469C17.3854 13.057 17.7755 12.4443 17.9984 11.7759C18.0542 11.6645 18.1099 11.386 18.1099 11.386C18.2214 10.8291 18.2771 10.2721 18.2771 9.54799C18.3328 4.64652 14.3204 0.63623 9.41641 0.63623Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath >
+                                            <rect width="18" height="18" fill="white" transform="translate(0.5 0.63623)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="button  button-img  " type="button">
+                            <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+               <svg class="svg-top2"  width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g >
+    <path d="M6.60731 11.8275L11.1898 3.54973C11.2528 3.43573 11.3158 3.32323 11.3728 3.20548C11.4246 3.09898 11.4681 2.99173 11.4966 2.87548C11.5566 2.63098 11.5401 2.37598 11.4471 2.14273C11.3568 1.91293 11.1934 1.71922 10.9821 1.59148C10.7747 1.46596 10.5308 1.41489 10.2906 1.44673C10.0506 1.47898 9.83081 1.59223 9.65756 1.76923C9.57506 1.85173 9.50756 1.94548 9.44531 2.04523C9.37631 2.15473 9.31406 2.26873 9.25106 2.38273L8.96156 2.90548L8.67131 2.38198C8.60831 2.26873 8.54606 2.15473 8.47706 2.04523C8.41628 1.94574 8.34514 1.85297 8.26481 1.76848C8.09575 1.59343 7.87287 1.48013 7.63181 1.44673C7.3918 1.41507 7.14816 1.46612 6.94106 1.59148C6.72977 1.71922 6.56637 1.91293 6.47606 2.14273C6.38338 2.3758 6.36607 2.63206 6.42656 2.87548C6.45506 2.99173 6.49856 3.09898 6.54956 3.20548C6.60656 3.32323 6.66956 3.43573 6.73256 3.54973L7.66856 5.24023L4.02206 11.8267H1.52306C1.39706 11.8267 1.27106 11.8267 1.14581 11.8342C1.03181 11.841 0.920808 11.8552 0.809808 11.8875C0.577308 11.955 0.373308 12.0975 0.226308 12.2985C0.079349 12.5008 0.000134884 12.7443 1.72104e-07 12.9944C-0.00013454 13.2444 0.0788171 13.488 0.225558 13.6905C0.373308 13.8915 0.576558 14.0332 0.809808 14.1015C0.920808 14.1337 1.03181 14.148 1.14581 14.1547C1.27106 14.1622 1.39706 14.1622 1.52306 14.1622H11.3458C11.3756 14.0966 11.4007 14.0289 11.4208 13.9597C11.7321 12.8977 10.9588 11.8267 9.89456 11.8267L6.60731 11.8275ZM2.33531 14.544L1.74131 15.669C1.67981 15.786 1.61756 15.9015 1.56206 16.0222C1.51084 16.1309 1.47064 16.2445 1.44206 16.3612C1.38188 16.6111 1.39861 16.8733 1.49006 17.1135C1.58081 17.352 1.74056 17.5507 1.94531 17.6797C2.15006 17.8087 2.38706 17.8612 2.62106 17.8275C2.85656 17.7945 3.07106 17.679 3.24056 17.4975C3.32156 17.4112 3.38756 17.316 3.44906 17.214C3.51656 17.1015 3.57731 16.9845 3.63881 16.8675L4.50056 15.2355C4.43306 15.123 3.79031 14.133 2.33531 14.544ZM17.7748 12.2895C17.6301 12.0937 17.4247 11.9513 17.1906 11.8845C17.0809 11.854 16.9682 11.8362 16.8546 11.8312C16.7286 11.8237 16.6033 11.8237 16.4773 11.8237H13.9866L10.6941 5.96248C10.2619 6.4159 9.9801 6.99156 9.88706 7.61098C9.76618 8.3857 9.91048 9.17853 10.2966 9.86098L14.2521 16.9057C14.3151 17.0182 14.3773 17.1307 14.4463 17.2387C14.5093 17.3362 14.5768 17.4285 14.6586 17.5117C14.8318 17.6857 15.0516 17.7967 15.2923 17.829C15.5331 17.8612 15.7746 17.811 15.9838 17.6865C16.1943 17.5606 16.3578 17.3694 16.4496 17.142C16.5433 16.9117 16.5591 16.6605 16.4991 16.419C16.4694 16.3064 16.4279 16.1973 16.3753 16.0935C16.3191 15.9772 16.2553 15.8662 16.1923 15.7537L15.2803 14.1292H16.4773C16.6033 14.1292 16.7286 14.1292 16.8546 14.1225C16.9686 14.1157 17.0796 14.1015 17.1906 14.07C17.4251 14.0031 17.6308 13.8605 17.7756 13.6642C17.9221 13.4652 18.001 13.2244 18.0006 12.9772C18.001 12.7301 17.9221 12.4893 17.7756 12.2902" fill="white" />
+  </g>
+  <defs>
+    <clipPath id="clip0_19282_39498">
+      <rect width="18" height="18" fill="white" transform="translate(0 0.636719)" />
+    </clipPath>
+  </defs>
+</svg>
+                            </span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="about" class="hero position-relative ">
+    <div class="container star_bg ">
+        <div class="star_bg-center"></div>
+        <div class=" row d-flex justify-content-between align-items-center ">
+            <div class="col-lg-6 hero__text-block ">
+                <h2 class="hero__title">
+                    Patrician —<br> Здоровые отношения начинаются здесь
+                </h2>
+                <p class="hero__subtitle">Сервис для построения серьезных<br class="d-block d-md-none"> отношений<br class="d-none d-lg-block">  основанных на доверии</p>
+                 <a href="#" class="button button-img hero__button  " >
+                     <span  class="appstore-button" >
+                         <svg class="apple-icon" width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <g >
+                                 <path d="M27.1229 11.9412C24.8289 13.3824 23.412 15.8529 23.412 18.598C23.412 21.6863 25.2337 24.5 28 25.6667C27.4602 27.451 26.6506 29.098 25.6386 30.6078C24.1542 32.7353 22.6024 34.9314 20.3084 34.9314C18.0145 34.9314 17.3398 33.5588 14.641 33.5588C12.0096 33.5588 11.0651 35 8.90602 35C6.74699 35 5.26265 33.0098 3.5759 30.5392C1.3494 27.1078 0.0674699 23.1275 0 18.9412C0 12.1471 4.31807 8.5098 8.63614 8.5098C10.9301 8.5098 12.8193 10.0196 14.2361 10.0196C15.5855 10.0196 17.7446 8.44118 20.3084 8.44118C23.0072 8.37255 25.5711 9.67647 27.1229 11.9412ZM19.094 5.55882C20.241 4.18628 20.8482 2.47059 20.9157 0.686275C20.9157 0.480392 20.9157 0.205882 20.8482 0C18.8916 0.205882 17.0699 1.16667 15.788 2.67647C14.641 3.98039 13.9663 5.62745 13.8988 7.41177C13.8988 7.61765 13.8988 7.82353 13.9663 8.02941C14.1012 8.02941 14.3036 8.09804 14.4386 8.09804C16.2602 7.96078 17.947 7 19.094 5.55882Z" fill="white" />
+                             </g>
+                             <defs>
+                                 <clipPath >
+                                     <rect width="28" height="35" fill="white" />
+                                 </clipPath>
+                             </defs>
+                         </svg>
+                         <span class="text">
+                             <span class="small">Загрузите в</span>
+                             <span class="big">App Store</span>
+                         </span>
+                     </span>
+
+                 </a>
+            </div>
+            <div class="col-lg-6 hero__img-block d-flex justify-content-center justify-content-lg-start">
+                <img src="img/mobile_img.png" class="hero__img" alt="about1_img">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="mission" class="our-team position-relative">
+    <div class="container">
+        <h3 class="our-team__title  ">Как работает Patrician</h3>
+        <div class="row  ">
+            <div class="col-lg-4">
+                <div class="our-team__item">
+                <div class="card-group__item-image">
+                    <img class="our-team__image" src="img/our-team_ico1.png" alt="our-team_ico1">
+                    <h4 class="our-team__item-title">Популяризировать
+                        медицинские анализы</h4>
+                </div>
+
+                <p class="our-team__item-text">Сделать скрининговые исследования популярными, чтобы выявлять раннее развитие заболеваний</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="our-team__item ">
+                <div class="card-group__item-image">
+                    <img class="our-team__image" src="img/our-team_ico2.png" alt="our-team_ico2">
+                    <h4 class="our-team__item-title">Предотвратить рост заболеваемости</h4>
+                </div>
+
+                <p class="our-team__item-text">Информировать общество о заболеваниях с целью предотвращения передачи инфекций от человека к человеку</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="our-team__item">
+                <div class="card-group__item-image">
+                    <img class="our-team__image" src="img/our-team_ico3.png" alt="our-team_ico3">
+                    <h4 class="our-team__item-title">Предотвратить рост заболеваемости</h4>
+                </div>
+
+                <p class="our-team__item-text">Стереть социальные барьеры в вопросах здоровья для того, чтобы общество стало открытым и понимающим</p>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pluses" class="about-app position-relative">
+    <div class="container position-relative">
+        <h3 class="about-app__title1 d-block d-lg-none ">Плюсы приложения Patrician</h3>
+        <div class="row justify-content-lg-center ">
+            <div class="about_bg_mob1"></div>
+            <div class="col-lg-3">
+                    <div class="about-app__item-image text-center text-lg-end me-lg-5">
+                        <img class="about-app__image" src="img/about-app_ico1.png" alt="about-app_ico1">
+                    </div>
+            </div>
+            <div class="col-lg-5">
+                <div class=" ms-lg-5 about-app__item">
+
+                        <h4 class="about-app__item-title mt-100">Подтвержденные анализы</h4>
+                    <p class="about-app__item-text">Мы тщательно проверяем все загруженные медицинские исследования. Это позволяет Вам получать достоверную информацию о здоровье других пользователей, что важно, для построения доверительных и серьезных отношений.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        <div class="row justify-content-lg-between align-items-center about-app__second-card">
+            <div class="about_bg_mob2"></div>
+            <div class="col-lg-5">
+                <h3 class="about-app__title2 d-none d-lg-block  ">Плюсы приложения</h3>
+            </div>
+            <div class="col-lg-5">
+                <div class="about-app__item">
+                    <div class="about-app__item-image text-center text-lg-start ">
+                        <img class="about-app__image2" src="img/about-app_ico2.png" alt="about-app_ico1">
+                    </div>
+
+                    <h4 class="about-app__item-title">Промокоды на сдачу анализов</h4>
+                    <p class="about-app__item-text">Воспользуйтесь нашими специальными <br class="d-none d-lg-block"> предложениями и позаботьтесь о своем здоровье <br class="d-none d-lg-block"> и здоровье своего партнера.</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row justify-content-lg-center  about-app__second-card">
+            <div class="about_bg_mob3"></div>
+            <div class="col-lg-5">
+                <div class="about-app__item">
+                    <div class="about-app__item-image text-center text-lg-start ">
+                        <img class="about-app__image" src="img/about-app_ico3.png" alt="about-app_ico3">
+                    </div>
+
+                    <h4 class="about-app__item-title">Настоящие знакомства</h4>
+                    <p class="about-app__item-text">Мы создаем безопасное пространство<br class="d-none d-lg-block">
+                        для знакомств с реальными людьми.</p>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="for_who" class="card-slider">
+    <div class="container">
+        <div class="row justify-content-center ">
+            <div class="col-lg-6">
+                <h3 class="card-slider__title ">Для кого Patrician</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-lg-8">
+                <p class="card-slider__subtitle ">Для людей с активной жизненной позицией, с прогрессивными взглядами на жизнь и долгосрочным планированием своего будущего, с внимательным отношением к себе и обществу</p>
+            </div>
+        </div>
+
+        <div class=" card-slider__list">
+        <div class=" owl-carousel  ">
+
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar1.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar2.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar1.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar1.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar2.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+            <div class=" card-slider__item">
+                <div class="  card-slider__item-wrapper overflow-hidden text-start">
+                    <div class="card-slider__item-image d-flex align-items-center">
+                        <img class="card-slider__image" src="img/avatar1.png" alt="trans">
+                        <div class="card-slider__custom-testimonials d-flex flex-column">
+                            <span class="custom-testimonials__name">Садова Полина</span>
+                            <span class="custom-testimonials__position">Студентка</span>
+                        </div>
+
+                    </div>
+
+                    <p class="card-slider__item-text text-start"> 1–2 предложения в 2–4 строчки. В идеале текст в сообщениях должен быть одинакового веса (количество строк +- одинаковое), чтобы некоторые отзывы не казались тяжёлыми + длинные описания читает маленький процент людей</p>
+
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="faq" class="section-faq">
+
+    <div class="container  d-flex flex-column">
+
+        <div class="row d-flex justify-content-center align-items-center order-1 order-lg-1">
+            <div class="col-lg-6">
+                <h2 class="section-faq__title ">Часто задаваемые вопросы</h2>
+                <p class="section-faq__subtitle">Если вы не нашли ответ на интересующий вас вопрос, сообщите нам об этом в электронном письме.</p>
+            </div>
+
+        </div>
+        <div class="row d-flex justify-content-center align-items-center order-3 order-lg-1">
+            <div class="col-lg-4">
+                 <button class="button section-faq__button1">Популярные вопросы</button>
+            </div>
+            <div class="col-lg-4 text-center">
+                <a  href="faq.html" class="button section-faq__button2">Ещё вопросы</a>
+            </div>
+
+        </div>
+        <div class="row justify-content-center order-2 order-lg-3">
+            <div class="col-lg-8 ">
+
+
+        <div class="faq-content">
+            <ul class="faq-content-ul">
+                <li class="faq-content-li">
+                    <div class="faq-title">
+                        <p>Заголовок  в одну строчку</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="faq-content-text">
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+
+                    </div>
+                </li>
+                <li class="faq-content-li">
+                    <div class="faq-title">
+                        <p>Заголовок  в одну строчку</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="faq-content-text">
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                    </div>
+                </li>
+                <li class="faq-content-li">
+                    <div class="faq-title">
+                        <p>Заголовок  в одну строчку</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="faq-content-text">
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                    </div>
+                </li>
+                <li class="faq-content-li">
+                    <div class="faq-title">
+                        <p>Заголовок  в одну строчку</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="faq-content-text">
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                    </div>
+                </li>
+                <li class="faq-content-li">
+                    <div class="faq-title">
+                        <p>Заголовок  в одну строчку</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.51953L7 7.51953L13 1.51953" stroke="#999EAD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="faq-content-text">
+                        Описание – краткая расшифровка часто задаваемого вопроса. Описывайте информацию, на которую не нашлось ответа на лендинге или которую стоит уточнить. Помогите пользователю решить его проблему и снять нагрузку с центра поддержки
+                    </div>
+                </li>
+            </ul>
+        </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="callback" class="insert">
+    <div class="container">
+        <div class="insert__wrapper position-relative overflow-hidden">
+            <div class="row align-items-center">
+                <div class="col-lg-5 insert__left-block text-center order-2 order-lg-1">
+                    <img class="insert_img" src="img/insert_img.png" alt="insert_img">
+
+                </div>
+                <div class="col-lg-6  z-2 order-1 order-lg-2">
+                    <div class="insert__right-block">
+                    <h3 class="insert__title">Присоединяйтесь к нашему телеграм каналу</h3>
+                    <p class="insert__subtitle ">Будь в курсе последних новостей приложения, следи за обновлениями и не пропускай анонсы активностей, которые будут приятно удивлять</p>
+                    <button  class="button insert__button " type="submit" >
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0C13.2272 0 8.64563 1.89759 5.27344 5.27203C1.8978 8.64783 0.000965949 13.226 0 18C0 22.772 1.89844 27.3535 5.27344 30.728C8.64563 34.1024 13.2272 36 18 36C22.7728 36 27.3544 34.1024 30.7266 30.728C34.1016 27.3535 36 22.772 36 18C36 13.228 34.1016 8.64647 30.7266 5.27203C27.3544 1.89759 22.7728 0 18 0Z" fill="url(#paint0_linear_152_4021)" />
+                            <path d="M9.34357 16.9741C14.5917 14.6881 18.0904 13.181 19.8398 12.4527C24.8404 10.3735 25.8783 10.0123 26.5561 10.0001C26.7051 9.99772 27.037 10.0346 27.2536 10.2096C27.4336 10.3573 27.4842 10.557 27.5095 10.6972C27.532 10.8372 27.5629 11.1565 27.5376 11.4057C27.2676 14.2519 26.0948 21.1588 25.4986 24.3468C25.2483 25.6957 24.7504 26.1479 24.2695 26.1921C23.2233 26.2883 22.4301 25.5013 21.4176 24.8379C19.8342 23.7992 18.9398 23.1529 17.4014 22.1396C15.6239 20.9684 16.777 20.3247 17.7895 19.2728C18.0539 18.9974 22.6608 14.8082 22.7479 14.4282C22.7592 14.3807 22.7704 14.2035 22.6636 14.1102C22.5595 14.0165 22.4048 14.0486 22.2923 14.0739C22.132 14.1099 19.6036 15.7827 14.6986 19.0922C13.9814 19.5855 13.3317 19.826 12.7467 19.8133C12.1054 19.7996 10.8679 19.45 9.94825 19.1513C8.82325 18.7848 7.92607 18.591 8.00482 17.9686C8.04419 17.6446 8.49138 17.313 9.34357 16.9741Z" fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_152_4021" x1="1800" y1="0" x2="1800" y2="3600" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#2AABEE" />
+                                    <stop offset="100%" stop-color="#1D8FD3" />
+
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        Подписаться на канал
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container position-relative">
+        <div class="row justify-content-center footer__margin text-center d-none d-lg-flex">
+            <div class="col-lg-3">
+                <img src="img/logo1.svg" alt="Patrician_logo" class="ms-1 header__logo1-img">
+            </div>
+
+        </div>
+        <div class="row d-flex justify-content-center text-center footer__margin">
+            <div class="col-lg-2">
+                <div class="header__button-group m-0 ">
+                    <button class="button  button-img  " type="button">
+                        <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath>
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top" width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03412 8.41814C7.85966 5.86363 11.7537 4.21254 13.7164 3.40257C19.2615 1.09727 20.4142 0.692285 21.1618 0.661133C21.3176 0.661133 21.6914 0.692286 21.9407 0.879202C22.1276 1.03496 22.1899 1.25303 22.221 1.4088C22.2522 1.56456 22.2833 1.90724 22.2522 2.18761C21.9407 5.33403 20.6634 13.0287 19.978 16.549C19.6977 18.0443 19.1369 18.5428 18.6073 18.6051C17.4547 18.6985 16.5513 17.8262 15.4298 17.1097C13.6852 15.9571 12.6883 15.2406 10.9749 14.1191C9.01231 12.8107 10.2896 12.0942 11.4111 10.9415C11.6914 10.63 16.8316 5.98824 16.9251 5.5521C16.9251 5.48979 16.9562 5.30288 16.8316 5.20942C16.707 5.11596 16.5513 5.14711 16.4266 5.17827C16.2397 5.20942 13.436 7.07858 7.98427 10.7546C7.1743 11.3153 6.45779 11.5646 5.80359 11.5646C5.08708 11.5646 3.71636 11.1596 2.68832 10.8169C1.44222 10.4119 0.445333 10.1938 0.538791 9.50849C0.601096 9.16581 1.09954 8.79198 2.03412 8.41814Z" fill="white" />
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="button  button-img  " type="button">
+                        <span class="svg-wrapper">
+                            <svg class="svg-base header__button-img" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <rect class="svg-bg" y="0.63623" width="40" height="40" rx="8" fill="#1C1C1C" />
+                                    <!-- остальная часть пути -->
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect y="0.63623" width="40" height="40" rx="8" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg class="svg-top2"  width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g >
+                                    <path d="M12.0913 9.54799C12.0913 11.0519 10.8653 12.2215 9.41641 12.2215C7.91176 12.2215 6.74149 10.9962 6.74149 9.54799C6.74149 8.04413 7.96749 6.87447 9.41641 6.87447C10.9211 6.87447 12.0913 8.04413 12.0913 9.54799ZM9.41641 0.63623C4.51238 0.63623 0.5 4.64652 0.5 9.54799C0.5 14.4495 4.51238 18.4598 9.41641 18.4598C11.1997 18.4598 12.9272 17.9028 14.4319 16.9002L13.2059 15.5077C12.0913 16.2318 10.7539 16.6217 9.36068 16.6217C5.45975 16.6217 2.28329 13.4469 2.28329 9.54799C2.28329 5.6491 5.45975 2.47427 9.36068 2.47427C13.2616 2.47427 16.4381 5.6491 16.4381 9.54799C16.4381 10.0493 16.3823 10.5506 16.2709 11.0519C16.048 11.9987 15.3793 12.2772 14.9334 12.2215C14.4319 12.1658 13.8746 11.8316 13.8746 10.9961V9.54799C13.8746 7.04156 11.8684 5.03643 9.36068 5.03643C6.85294 5.03643 4.84674 7.04156 4.84674 9.54799C4.84674 12.0544 6.85294 14.0596 9.36068 14.0596C10.5867 14.0596 11.7012 13.5583 12.5372 12.7228C13.0387 13.5026 13.8746 14.0039 14.7663 14.0596C15.4907 14.1153 16.2152 13.8925 16.8282 13.4469C17.3854 13.057 17.7755 12.4443 17.9984 11.7759C18.0542 11.6645 18.1099 11.386 18.1099 11.386C18.2214 10.8291 18.2771 10.2721 18.2771 9.54799C18.3328 4.64652 14.3204 0.63623 9.41641 0.63623Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath >
+                                        <rect width="18" height="18" fill="white" transform="translate(0.5 0.63623)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-lg-3 text-center text-lg-end footer__margin">
+                <a class="footer__link" href="../pages/policy_page.html" target="_blank">Политика конфиденциальности</a>
+            </div>
+            <div class="col-lg-3 text-center text-lg-start footer__margin">
+                <a class="footer__link" href="../pages/policy_page.html" target="_blank">Политика конфиденциальности</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-2">
+                <p class="copy-past">© 2024 Patrician</p>
+            </div>
+        </div>
+        <button id="scrollTopBtn" title="Наверх">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12l7-7 7 7M12 5v14" />
+            </svg>
+        </button>
+
+    </div>
+
+        <a href="#" class=" button-scroll d-flex d-lg-none justify-content-center" target="_blank" rel="noopener noreferrer">
+            <svg class="apple-icon" width="28" height="35" viewBox="0 0 28 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g >
+                    <path d="M27.1229 11.9412C24.8289 13.3824 23.412 15.8529 23.412 18.598C23.412 21.6863 25.2337 24.5 28 25.6667C27.4602 27.451 26.6506 29.098 25.6386 30.6078C24.1542 32.7353 22.6024 34.9314 20.3084 34.9314C18.0145 34.9314 17.3398 33.5588 14.641 33.5588C12.0096 33.5588 11.0651 35 8.90602 35C6.74699 35 5.26265 33.0098 3.5759 30.5392C1.3494 27.1078 0.0674699 23.1275 0 18.9412C0 12.1471 4.31807 8.5098 8.63614 8.5098C10.9301 8.5098 12.8193 10.0196 14.2361 10.0196C15.5855 10.0196 17.7446 8.44118 20.3084 8.44118C23.0072 8.37255 25.5711 9.67647 27.1229 11.9412ZM19.094 5.55882C20.241 4.18628 20.8482 2.47059 20.9157 0.686275C20.9157 0.480392 20.9157 0.205882 20.8482 0C18.8916 0.205882 17.0699 1.16667 15.788 2.67647C14.641 3.98039 13.9663 5.62745 13.8988 7.41177C13.8988 7.61765 13.8988 7.82353 13.9663 8.02941C14.1012 8.02941 14.3036 8.09804 14.4386 8.09804C16.2602 7.96078 17.947 7 19.094 5.55882Z" fill="white" />
+                </g>
+                <defs>
+                    <clipPath >
+                        <rect width="28" height="35" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <div class="text">
+                <span class="small">Загрузите в</span>
+                <span class="big">App Store</span>
+            </div>
+        </a>
+
+
+
+
+</footer>
+
+
+
+
+<script src="owlcarousel/jquery-3.7.1.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script> document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("header");
+    const navbarNav = document.getElementById("navbarNav");
+
+    navbarNav.addEventListener("show.bs.collapse", function () {
+        header.classList.add("active");
+    });
+
+    navbarNav.addEventListener("hide.bs.collapse", function () {
+        header.classList.remove("active");
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth < 992) { // для мобильных и планшетов
+                const collapse = new bootstrap.Collapse(navbarCollapse, {
+                    toggle: false
+                });
+                collapse.hide();
+            }
+        });
+    });
+});
+
+
+
+
+function faqClickHandler(event) {
+    event.preventDefault();
+
+    const currentTitle = event.currentTarget;
+    const currentItem = currentTitle.closest('.faq-content-li');
+
+    currentItem.classList.toggle('active');
+}
+
+function initFaqTitle() {
+    document.querySelectorAll('.faq-title').forEach(title => {
+        title.removeEventListener('click', faqClickHandler);
+        title.addEventListener('click', faqClickHandler);
+    });
+}
+
+initFaqTitle();
+
+
+
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 9000, // задержка между слайдами
+        autoplaySpeed: 900,       // скорость анимации при автоплее
+        smartSpeed: 900,
+        margin:0,
+        nav:true,
+        dots: true,
+        responsive:{
+            0:{
+                stagePadding: 20,
+                items:1
+
+            },
+            600:{
+                stagePadding: 40,
+                items:1
+            },
+            1000:{
+                items:2
+            },
+            1300:{
+                items:2
+            }
+
+        }
+    });
+});
+
+
+window.addEventListener("scroll", () => {
+    const btn = document.getElementById("scrollTopBtn");
+    if (window.pageYOffset > 300) {
+        btn.classList.add("show");
+    } else {
+        btn.classList.remove("show");
+    }
+});
+
+// Скролл вверх при клике
+document.getElementById("scrollTopBtn").addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
+</script>
+</body>
+
+</html>
