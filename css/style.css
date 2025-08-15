@@ -405,7 +405,7 @@ header {
     text-align: center;
     color: #555a65;
     margin-top: 40px;
-    margin-bottom: 64px;
+    margin-bottom: 0px;
 }
 .section-faq__button1 {
     align-items: center;
@@ -596,14 +596,17 @@ header {
 .insert_img {
     padding-top: 56px;
     z-index: 2;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .insert__title {
     font-family: "Mulish", sans-serif;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 106%;
-    color: #fff;
+    color: #000;
 
 }
 .insert__subtitle {
@@ -618,64 +621,52 @@ header {
 .insert__button {
     font-family: "Mulish", sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 143%;
+    font-size: 20px;
+    line-height: 100%;
     text-align: start;
     color: #f7f8fa;
-    border-radius: 30px;
-    max-width: 273px;
+    border-radius: 332px;
+    max-width: 295px;
     height: 61px;
-    background: #38b9fc;
-    padding: 12px 38px 20px 19px;
+    background: #2B2D33;
+    padding: 20px 40px;
     border: none;
-
+    margin-top: 85px;
 
 }
+
+
+
 .insert__button svg {
     margin-right: 16px;
 }
 
 .insert__button:hover {
-    color:  #38b9fc;
+    color:  #2B2D33;
     background: #f7f8fa;
 }
 .insert__wrapper {
-    border-radius: 24px;
-    background: #2008b5;
+    border-radius: 40px;
+    background: #E9E6FF;
+    padding: 32px ;
 /*
     fill: #2801fd;
     filter: blur(173.3000030517578px);*/
 }
 
-.insert__wrapper::before{
-
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-
-    z-index: 1;
-    background: url("../img/insert_bg1.svg") top left  no-repeat;
-
-    fill: rgba(255, 1, 169, 0.58);
-
-}
 .insert__wrapper::after{
     content: "";
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 32px;
+    right: 32px;
     width: 100%;
     height: 100%;
 
 
     z-index: 0;
-    background: url("../img/insert_bg2.svg") top left  no-repeat;
+    background: url("../img/insert_bg2.png") top right  no-repeat;
 
-    fill: #2801fd;
+
 
 }
 .footer__margin {
@@ -711,9 +702,10 @@ header {
     margin-bottom: 10px;
 }
 .card-slider {
-    background: #f7f8fa;
+    background: #F3F2FF;
     padding-top: 75px;
     padding-bottom: 89px;
+    border-radius: 40px;
 
 }
 .card-slider__title {
@@ -726,17 +718,7 @@ header {
 
 
 }
-.card-slider__subtitle::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    background: url("../img/quotes.svg") top left  no-repeat;
 
-}
 .card-slider__subtitle {
     font-family: "Mulish", sans-serif;
     font-weight: 400;
@@ -745,7 +727,8 @@ header {
     color: #2b2d33;
     margin-top: 55px;
     margin-bottom: 80px;
-    padding-left: 90px;
+    padding-left: 0px;
+    text-align: center;
 
     position: relative;
 
@@ -801,7 +784,7 @@ header {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background: url("../img/crown.svg") top left  no-repeat;
+    background: url("../img/crown.png") top left  no-repeat;
 
 }
 
