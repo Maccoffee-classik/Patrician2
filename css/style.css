@@ -326,11 +326,11 @@ header {
 .about-app__title1 {
     font-family: "Mulish", sans-serif;
     font-weight: 800;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 133%;
     text-align: center;
     color: #2b2d33;
-    margin-bottom: 60px;
+    margin-bottom: 32px;
 }
 .about-app__title2 {
     font-family: "Mulish", sans-serif;
@@ -1097,7 +1097,7 @@ section {
     /*our-team*/
     .our-team {
 
-        background: #f7f8fa;
+
         border-radius: 12px;
         padding: 24px 15px 32px;
         margin: 0 19px;
@@ -1118,6 +1118,7 @@ section {
     }
     .our-team__item-title {
         font-size: 17px;
+        margin-top: 24px;
     }
     .our-team__item-text {
 
@@ -1125,7 +1126,8 @@ section {
     }
     .card-group__item-image {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
     }
     .our-team__image {
         width: 48px;
@@ -1170,16 +1172,13 @@ section {
     }
     .about-app__item-title {
         width: 80%;
-        margin: 16px auto 0;
-        text-align: center;
+        margin: 16px 0 0;
+        text-align: left;
         font-size: 16px;
         line-height: 150%;
 
     }
-    .about-app__item-text {
-        border-left: 2px solid #ff00a8;
-        padding: 0px 0px 0px 16px;
-    }
+
     .about-app__second-card {
         margin-top: 40px!important;
     }
@@ -1224,8 +1223,9 @@ section {
 
     .section-faq__title {
         font-size: 24px;
-        width: 80%;
-        margin: auto;
+        width: 100%;
+
+        text-align: left;
     }
 
     .section-faq__subtitle {
@@ -1262,16 +1262,26 @@ section {
     }
 
     /*insert*/
+    .insert .insert__wrapper {
+        overflow: hidden;
+    }
+    .insert__wrapper {
+        padding: 24px;
+    }
     .insert__right-block {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 82px 21px 38px 21px;
+        padding: 0;
         text-align: center;
 
     }
     .insert__button {
         margin: auto;
+        margin-bottom: 422px;
+        margin-top: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     .insert__title {
         font-size: 31px;
@@ -1282,25 +1292,8 @@ section {
         margin-bottom: 20px;
 
     }
-
-    .insert__wrapper::before{
-
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-
-
-        z-index: 1;
-        background: url("../img/insert_mob_bg1.svg") bottom left 50% no-repeat;
-
-        fill: rgba(255, 1, 169, 0.58);
-
-
-    }
     .insert__wrapper::after{
+        display: none;
         content: "";
         position: absolute;
         bottom: 0;
@@ -1310,13 +1303,15 @@ section {
 
 
         z-index: 0;
-        background: url("../img/insert_mob_bg2.svg") bottom left 50%  no-repeat;
+        background: url("../img/insert_bg2.png") bottom left 50%  no-repeat;
 
         fill: #2801fd;
 
     }
+
     .insert_img {
         padding-top: 0;
+        max-width: 406px;
     }
     .footer__margin {
         margin-bottom: 16px;
@@ -1358,7 +1353,8 @@ section {
 /*slider*/
     .card-slider {
         padding-top: 24px;
-        padding-bottom: 40px;
+        padding-bottom: 24px;
+        border-radius: 0;
     }
     .card-slider__title{
         font-size: 24px;
@@ -1369,8 +1365,9 @@ section {
         font-size: 16px;
         margin-top: 24px;
         margin-bottom: 24px;
-        padding-left: 48px;
+        padding-left: 0px;
         padding-right: 10px;
+        text-align: left;
     }
 
     .card-slider__subtitle::before {
