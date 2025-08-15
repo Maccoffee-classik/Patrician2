@@ -274,6 +274,11 @@ header {
 /*our-team*/
 .our-team {
     padding-bottom: 90px;
+
+}
+.our-team  .col-lg-4 {
+    padding-left: 0;!important;
+    padding-right: 0;!important;
 }
 .our-team__title {
     font-family: "Mulish", sans-serif;
@@ -1100,7 +1105,7 @@ section {
 
         border-radius: 12px;
         padding: 24px 15px 32px;
-        margin: 0 19px;
+        margin: 0 0px;
 
     }
     .our-team__title {
@@ -1178,6 +1183,14 @@ section {
         line-height: 150%;
 
     }
+    .about-app__item-p-0 {
+        padding: 0!important;
+    }
+    .about-app__item{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
 
     .about-app__second-card {
         margin-top: 40px!important;
