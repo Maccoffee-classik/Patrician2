@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
 </head>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.min.js"></script>
 <body>
 <header class="header pt-3 pb-3 ">
     <nav class=" p-0 navbar navbar-expand-lg navbar-dark ">
@@ -165,7 +166,23 @@
                  </a>
             </div>
             <div class="col-lg-6 hero__img-block d-flex justify-content-center justify-content-lg-start">
-                <img src="img/mobile_img.png" class="hero__img" alt="about1_img">
+                <img
+                        class="lazy hero__img"
+                        alt="about1_img"
+                        src="img/mobile_img.png"
+                        data-src="img/mobile_img.png"
+                        data-srcset="
+        img/mobile_img-320.png 320w,
+        img/mobile_img-640.png 640w,
+        img/mobile_img-1024.png 1024w,
+        img/mobile_img-1440.png 1440w
+    "
+                        data-sizes="(max-width: 576px) 320px,
+                (max-width: 768px) 640px,
+                (max-width: 1200px) 1024px,
+                1440px"
+                        loading="lazy"
+                />
             </div>
         </div>
     </div>
@@ -229,7 +246,7 @@
 
 
                 </div>
-            </div>
+
         <div class="row justify-content-lg-between align-items-center about-app__second-card">
 
             <div class="col-lg-5">
@@ -733,6 +750,12 @@ document.getElementById("scrollTopBtn").addEventListener("click", () => {
         top: 0,
         behavior: "smooth"
     });
+});
+
+/*LazyLoad*/
+const lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    use_native: true
 });
 
 </script>
