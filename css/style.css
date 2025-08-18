@@ -185,7 +185,7 @@ header {
 /*hero*/
 .hero {
     padding-top: 184px;
-    padding-bottom: 138px;
+    padding-bottom: 200px;
 
 
 }
@@ -1523,5 +1523,5 @@ section {
 
 .header .show .header__buttons {
     margin: auto;
-    
+
 }
