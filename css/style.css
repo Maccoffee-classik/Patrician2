@@ -82,6 +82,10 @@ header {
 .navbar {
     background: #fff;
 }
+.active .navbar.navbar-expand-lg.navbar-dark {
+    height: 100vh;
+    align-items: flex-start;
+}
 
 
 .button-img {
@@ -394,6 +398,7 @@ header {
 /*section-faq*/
 .section-faq {
     padding-top: 100px;
+    padding-bottom: 143px;
 }
 .section-faq__title {
     font-family: "Mulish", sans-serif;
@@ -1261,6 +1266,7 @@ section {
         padding-top: 48px;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 0;
     }
 
     .section-faq__title {
@@ -1360,7 +1366,7 @@ section {
         margin-bottom: 16px;
     }
     .insert {
-        padding-top: 54px;
+        padding-top: 60px;
         padding-bottom: 66px;
 
     }
@@ -1517,4 +1523,5 @@ section {
 
 .header .show .header__buttons {
     margin: auto;
+    
 }
